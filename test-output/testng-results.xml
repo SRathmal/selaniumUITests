@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-12T19:53:37 EET" name="SauceDemoTestSuite" finished-at="2025-02-12T19:54:01 EET" duration-ms="23951">
+    <groups>
+    </groups>
+    <test started-at="2025-02-12T19:53:37 EET" name="LoginTests" finished-at="2025-02-12T19:53:52 EET" duration-ms="14496">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:37 EET" name="setUp" finished-at="2025-02-12T19:53:44 EET" duration-ms="7164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:44 EET" name="setUpPage" finished-at="2025-02-12T19:53:44 EET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:44 EET" name="testSuccessfulLogin" finished-at="2025-02-12T19:53:45 EET" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:45 EET" name="tearDown" finished-at="2025-02-12T19:53:45 EET" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:45 EET" name="setUp" finished-at="2025-02-12T19:53:48 EET" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:48 EET" name="setUpPage" finished-at="2025-02-12T19:53:48 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testLoginWithInvalidCredentials()[pri:2, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:48 EET" name="testLoginWithInvalidCredentials" finished-at="2025-02-12T19:53:48 EET" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:48 EET" name="tearDown" finished-at="2025-02-12T19:53:48 EET" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:48 EET" name="setUp" finished-at="2025-02-12T19:53:51 EET" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPage()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:51 EET" name="setUpPage" finished-at="2025-02-12T19:53:51 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPage -->
+        <test-method signature="testLoginWithEmptyFields()[pri:3, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:51 EET" name="testLoginWithEmptyFields" finished-at="2025-02-12T19:53:51 EET" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@31ea9581]" started-at="2025-02-12T19:53:51 EET" name="tearDown" finished-at="2025-02-12T19:53:52 EET" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTests -->
+    <test started-at="2025-02-12T19:53:52 EET" name="AddToCartTests" finished-at="2025-02-12T19:53:58 EET" duration-ms="6017">
+      <class name="tests.AddToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:52 EET" name="setUp" finished-at="2025-02-12T19:53:54 EET" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:54 EET" name="setUpPages" finished-at="2025-02-12T19:53:54 EET" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testAddToCartSuccessfully()[pri:1, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:54 EET" name="testAddToCartSuccessfully" finished-at="2025-02-12T19:53:54 EET" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:54 EET" name="tearDown" finished-at="2025-02-12T19:53:55 EET" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:55 EET" name="setUp" finished-at="2025-02-12T19:53:56 EET" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:56 EET" name="setUpPages" finished-at="2025-02-12T19:53:57 EET" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testAddToCartWithoutLogin()[pri:2, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:57 EET" name="testAddToCartWithoutLogin" finished-at="2025-02-12T19:53:57 EET" duration-ms="471" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Item should not be added to cart without login! expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Item should not be added to cart without login! expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at tests.AddToCartTest.testAddToCartWithoutLogin(AddToCartTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartWithoutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AddToCartTest@782859e]" started-at="2025-02-12T19:53:57 EET" name="tearDown" finished-at="2025-02-12T19:53:58 EET" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AddToCartTest -->
+    </test> <!-- AddToCartTests -->
+    <test started-at="2025-02-12T19:53:58 EET" name="CheckoutTests" finished-at="2025-02-12T19:54:01 EET" duration-ms="3369">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@821330f]" started-at="2025-02-12T19:53:58 EET" name="setUp" finished-at="2025-02-12T19:54:00 EET" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpPages()[pri:0, instance:tests.CheckoutTest@821330f]" started-at="2025-02-12T19:54:00 EET" name="setUpPages" finished-at="2025-02-12T19:54:01 EET" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPages -->
+        <test-method signature="testCheckoutWithEmptyFields()[pri:1, instance:tests.CheckoutTest@821330f]" started-at="2025-02-12T19:54:01 EET" name="testCheckoutWithEmptyFields" finished-at="2025-02-12T19:54:01 EET" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@821330f]" started-at="2025-02-12T19:54:01 EET" name="tearDown" finished-at="2025-02-12T19:54:01 EET" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- CheckoutTests -->
+  </suite> <!-- SauceDemoTestSuite -->
+</testng-results>
